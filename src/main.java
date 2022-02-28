@@ -24,7 +24,7 @@ class main
 
         System.out.println(procesare);
 
-        procesare = content.replaceAll("\\s+",""); //eliminare spatii
+        procesare = content.replaceAll("\\s+","");  //eliminare spatii
 
         System.out.println(procesare);
     }
