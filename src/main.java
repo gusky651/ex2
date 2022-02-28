@@ -20,7 +20,12 @@ class main
             e.printStackTrace();
         }
 
-        String procesare = content.replaceAll("\\p{P}", "");
+        String procesare = content.replaceAll("\\p{P}", ""); //eliminare semne de punctuatie
+
+        System.out.println(procesare);
+
+        procesare = content.replaceAll("\\s+",""); //eliminare spatii
+
         System.out.println(procesare);
     }
 }
